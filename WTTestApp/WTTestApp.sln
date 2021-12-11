@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TollFeeCalculator", "WTTestApp\TollFeeCalculator.csproj", "{F1EFE2DE-1377-4E2A-B245-07F75F03B32D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TollFeeCalculator", "TollFeeCalculator\TollFeeCalculator.csproj", "{F1EFE2DE-1377-4E2A-B245-07F75F03B32D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TollFeeCalculatorTest", "TollFeeCalculatorFee\TollFeeCalculatorTest.csproj", "{6E5AC5D1-AE16-47C5-88A9-9DC1C38E9881}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TollFeeCalculatorTest", "TollFeeCalculatorTest\TollFeeCalculatorTest.csproj", "{6E5AC5D1-AE16-47C5-88A9-9DC1C38E9881}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F1EFE2DE-1377-4E2A-B245-07F75F03B32D} = {F1EFE2DE-1377-4E2A-B245-07F75F03B32D}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3391D43A-733B-455D-9763-A3A2DC32FA5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
