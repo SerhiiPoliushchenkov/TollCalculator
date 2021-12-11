@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TollFeeCalculator\TollFeeCalculator.csproj" />
-    <ProjectReference Include="..\WTTestApp\TollFeeCalculator.csproj" />
   </ItemGroup>
 
 </Project>
